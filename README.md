@@ -1,0 +1,2 @@
+# Iris_Prediction_MechineLearning_inDjango
+Mechine Learning integration in Django
