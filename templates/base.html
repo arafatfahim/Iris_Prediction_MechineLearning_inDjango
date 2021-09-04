@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600%7CUbuntu:300,400,500,700" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css2/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css2/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css2/owl.carousel.min.css">
+    <link rel="stylesheet" href="css2/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="css2/nouislider.min.css">
+    <link rel="stylesheet" href="css2/ionicons.min.css">
+    <link rel="stylesheet" href="css2/plyr.css">
+    <link rel="stylesheet" href="css2/photoswipe.css">
+    <link rel="stylesheet" href="css2/default-skin.css">
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="icon/favicon-32x32.png" sizes="32x32">
+    <link rel="apple-touch-icon" href="icon/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icon/apple-touch-icon-144x144.png">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Dmitry Volkov">
+    <title>Iris prediction</title>
+    </head>
+    <body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Prediction <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/results">Recent Results</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    {% block body %}
+    {% endblock %}
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    {% block js %}
+    {% endblock js %}
+    </body>
+</html>
