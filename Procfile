@@ -1,0 +1,1 @@
+web: gunicorn irish_prediction.wsgi
