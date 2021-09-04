@@ -17,7 +17,7 @@ def predict_chances(request):
         petal_length = float(request.POST.get('petal_length'))
         petal_width = float(request.POST.get('petal_width'))
 
-        model = pd.read_pickle(r'new_model.pickle')
+        model = pd.read_pickle(r'/new_model.pickle')
 
         result = model.predict([[sepal_length,sepal_width,petal_length,petal_width]])
 
